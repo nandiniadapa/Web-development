@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Speed Calculation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Split</title>
+        <script src="split.js"></script>
+        </head>
+        <label>Time(in minutes)</label>
+        <input type="number" id="txtTime">
+        <label>Distance(in meters)</label>
+        <input type="number" id="txtDistance">
+        <button  id="btnSpeed" onclick="onClickSpeed()"></button>
+        <p id="pResult">Result</p>
+
+
+
+</html>
+    </body>
+    <!-- speed=distance/time in km/hr 
+     meters>----meter/1000
+     min----min/60
+      1km=1000mtrs
+      1mtr=1/1000km
+      20mtrs=20/1000km
+      200 mtrs=20/1000
+       
+
+      1min=1/60hrs
+      30mins=30/60hrs
+      ------>
