@@ -6,7 +6,6 @@ function onClickCheckEvenOddNumber(){
 
  }
   else;
-
 {
   document.getElementById("pResult").innerHTML= number+ " is Odd Number" ;
 
