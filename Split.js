@@ -4,4 +4,5 @@ function onClicksplit(){
     Amount=(document.getElementById("txtAmount").value);
     Average=Amount/number;
     document.getElementById("pResult").innerHTML=Average
+    
 }
