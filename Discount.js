@@ -5,6 +5,5 @@ function onClickSellingprice(){
     discount=( discountPercentage/100)*price;
     sellingprice=price-discount;
     document.getElementById("pResult").innerHTML=sellingprice;
-    
 }
 
